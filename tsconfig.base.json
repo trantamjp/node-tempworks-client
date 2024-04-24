@@ -1,0 +1,23 @@
+{
+  "extends": ["@tsconfig/strictest/tsconfig", "@tsconfig/node20/tsconfig"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "resolveJsonModule": true,
+    "importsNotUsedAsValues": "error",
+    "ignoreDeprecations": "5.0",
+    "allowJs": true,
+    "sourceMap": true,
+    "declaration": true,
+    "module": "commonjs",
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "moduleResolution": "node"
+  }
+}

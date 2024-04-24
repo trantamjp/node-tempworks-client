@@ -1,0 +1,11 @@
+{
+  "endOfLine": "lf",
+  "printWidth": 120,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "importOrder": ["^@/(.*)$", "", "^[./]"],
+  "importOrderParserPlugins": ["typescript", "decorators-legacy"],
+  "importOrderTypeScriptVersion": "5.0.0",
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"]
+}
